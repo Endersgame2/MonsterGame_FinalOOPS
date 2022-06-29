@@ -10,7 +10,7 @@ namespace MonsterGame
             Console.WriteLine("1 - Display Statistics");
             Console.WriteLine("2 - Display Inventory");
             Console.WriteLine("3 - Fight!");
-            Console.WriteLine("4 - Manage Coins");
+            Console.WriteLine("4 - Manage Coins"); // Code Breaks *********************************************************
             while (true)
             {
                 var input = Console.ReadLine();
